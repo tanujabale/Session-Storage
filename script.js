@@ -1,4 +1,3 @@
-// Function to save the name and address to Session Storage
 function saveData() {
     const name = document.getElementById('name').value;
     const address = document.getElementById('address').value;
@@ -7,7 +6,6 @@ function saveData() {
     displayData();
 }
 
-// Function to retrieve the name and address from Session Storage
 function getData() {
     const name = sessionStorage.getItem('name');
     const address = sessionStorage.getItem('address');
@@ -19,7 +17,6 @@ function getData() {
     }
 }
 
-// Function to clear the name and address from Session Storage
 function clearData() {
     sessionStorage.removeItem('name');
     sessionStorage.removeItem('address');
@@ -27,7 +24,6 @@ function clearData() {
     displayData();
 }
 
-// Function to display the name and address if they are stored
 function displayData() {
     const name = sessionStorage.getItem('name');
     const address = sessionStorage.getItem('address');
@@ -45,5 +41,4 @@ function displayData() {
     }
 }
 
-// Display the name and address on page load if they are already stored
 displayData();
