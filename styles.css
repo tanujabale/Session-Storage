@@ -1,4 +1,4 @@
-/* General styles for the body */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -11,7 +11,6 @@ body {
     height: 100vh;
 }
 
-/* Styles for the form */
 form {
     background-color: #fff;
     padding: 20px;
@@ -23,13 +22,12 @@ form {
     width: 300px;
 }
 
-/* Styles for the form label */
+
 label {
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-/* Styles for the form input */
 input[type="text"] {
     padding: 8px;
     border: 1px solid #ccc;
@@ -38,7 +36,7 @@ input[type="text"] {
     box-sizing: border-box;
 }
 
-/* Styles for the form buttons */
+
 button {
     padding: 10px;
     border: none;
@@ -49,12 +47,10 @@ button {
     transition: background-color 0.3s ease;
 }
 
-/* Hover effect for the buttons */
 button:hover {
     background-color: #0056b3;
 }
 
-/* Styles for the greeting paragraph */
 #greeting {
     margin-top: 10px;
     font-size: 1em;
